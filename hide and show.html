@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <p>HELLO</p>
+    <button onclick="show()">HIDE/SHOW</button>
+    <div id="hide">
+    WELCOME TO INFOSPICA
+    </div>
+    
+</body>
+<script>
+    function show()
+    {
+        var p=document.getElementById("hide");
+        if(p.style.display==="none")
+        {
+            p.style.display="block";
+        }
+        else{
+            p.style.display="none";
+        }
+    }
+    </script>
+</html>
